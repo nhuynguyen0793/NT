@@ -6,7 +6,8 @@ import pandas as pd
 import requests
 import base64
 import folium
-from streamlit-folium import st_folium
+from streamlit_folium import st_folium
+from folium.features import Icon, Marker, PolyLine
 
 # ============ CONFIG ============
 st.set_page_config(
